@@ -20,8 +20,12 @@
           "type": "module"
         }
       ],
+      
     "action": {
       "default_popup": "main.html",
       "default_icon": "beandestroyer.png"
+    },
+    "background": {
+      "service_worker": "script.js"
     }
   }
